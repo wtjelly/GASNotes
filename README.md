@@ -1,0 +1,2 @@
+# GASNotes
+GoogleAppsScriptを使ってMisskeyにノートするプログラム
