@@ -11,5 +11,5 @@ function sendPostRequestMk(){
     // Convert the JavaScript object to a JSON string.
     'payload' : JSON.stringify(data)
   };
-  UrlFetchApp.fetch('https://example.com', options);
+  UrlFetchApp.fetch('https://example.com/api/notes/create', options); // URLのあとに /api/notes/create を付ける必要がある
 }
